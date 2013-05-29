@@ -1,0 +1,32 @@
+{
+    "name": "tutorme",
+    "title": "jQuery TutorMe",
+    "description": "jQuery plugin for overlaying customized tutorial bubbles over a web page.",
+    "keywords": [
+        "help",
+        "tutorial"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Neal Shannon Cruey"
+    },
+    "maintainers": [
+        {
+            "name": "Shannon Cruey",
+            "url": "https://github.com/shannoncruey/jquery.tutorme"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "Apache 2",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    ],
+    "bugs": "https://github.com/shannoncruey/jquery.tutorme/issues",
+    "homepage": "https://github.com/shannoncruey/jquery.tutorme",
+    "docs": "https://github.com/shannoncruey/jquery.tutorme",
+    "download": "http://code.jquery.com/#tutorme",
+    "dependencies": {
+        "jquery": ">=1.7.2"
+    }
+}
