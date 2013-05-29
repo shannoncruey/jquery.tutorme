@@ -1,0 +1,100 @@
+#tutorme {
+	color: #FFF;
+}
+#tutorme-overlay {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: black;
+	z-index: 99 !important;
+	filter: alpha(opacity=40); /* internet explorer */
+	-khtml-opacity: 0.40; /* khtml, old safari */
+	-moz-opacity: 0.40; /* mozilla, netscape */
+	opacity: 0.40; /* fx, safari, opera */
+}
+#tutorme-title {
+	position: absolute;
+	top: 10px;
+	z-index: 100;
+	width: 100%;
+	text-align: center;
+	padding: 6px;
+}
+#tutorme-close {
+	cursor: pointer;
+	display: inline-block;
+	right: 10px;
+	top: 10px;
+	font-family: Courier;
+	font-size: 2em;
+	position: absolute;
+	z-index: 100;
+	border: solid 6px #006DCC;
+	border-radius: 18px;
+	background-color: #333;
+	padding: 4px;
+}
+
+.tutorme-bubble {
+	display: inline-block;
+	position: absolute;
+	z-index: 100;
+	border: solid 6px #006DCC;
+	/*
+	 * 	border: 2px dashed  #ffffff;
+	 *	box-shadow: 0 0 0 8px #000000;
+	 */
+	border-radius: 10px;
+	background-color: #333;
+	padding: 4px;
+	opacity: 0.3;
+	transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+.tutorme-bubble:hover {
+	opacity: 1.0;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
+}
+.tutorme-bubble-title {
+	text-align: center;
+	/* border-bottom: solid 1px #ccc; */
+}
+.tutorme-bubble .arrow-left {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #006DCC;
+	margin-left: -20px;
+	float: left;
+}
+.tutorme-bubble .right {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #006DCC;
+	margin-left: -20px;
+	float: left;
+}
+.tutorme-bubble .arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #006DCC;
+	float: left;
+}
+.tutorme-bubble .arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #006DCC;
+	float: left;
+}
