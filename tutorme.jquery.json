@@ -4,9 +4,12 @@
     "description": "jQuery plugin for overlaying customized tutorial bubbles over a web page.",
     "keywords": [
         "help",
-        "tutorial"
+        "tutorial",
+        "tutorme",
+        "learn",
+        "teach"
     ],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": {
         "name": "Neal Shannon Cruey"
     },
