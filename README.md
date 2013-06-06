@@ -3,7 +3,7 @@ jquery.tutorme
 
 A jQuery plugin for overlaying a tutorial on any web page.
 
-## Version 0.1.1
+## Version 0.0.3
 
 Initial versions have very specific features needed to meet immediate goals.  Future versions will have better customization options and cross browser testing.
 
